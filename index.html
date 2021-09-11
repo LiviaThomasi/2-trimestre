@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="./imagens/LOGO.png"/></div>
+        <div id="ident"> <h1>PAIOL DELIVERY</h1></div>
+        
+       <nav>
+           <ul >
+               <li><a href="#h-cardapio">Cardápio</a></li>
+               <li><a href="#h-quem somos">Quem somos?</a></li>
+               <li><a href="#h-endereço">Endereço</a></li>
+               <li><a href="#h-contato">Contato</a></li>
+
+           </ul>
+           
+       </nav>
+        <div id="icon-menu"><img src="./imagens/menu.png" /></div>
+    </header>
+    <main> <div> <h2>Paiol Delivery</h2></div>
+        <div>
+           
+            <p>Porções de peixes e baguetes deliciosos na localidade de Taquara RS, levamos até sua casa </h1>
+        </div>
+       
+        <div id = "imagens">
+            <div>
+                <img src="./imagens/frango 1.jpeg">
+                </div>
+                <div>
+                      <img src="./imagens/paiol.jpeg">
+                </div>
+                <div> <img src="./imagens/bolinho.jpg">
+                </div>
+                <div><img src="./imagens/tilap.jpg" >
+                </div>
+                <div><img src="./imagens/violinha.jpg">
+                </div>
+                <div><img src="./imagens/tilapia.jpg" >
+                </div>
+           </div>
+           
+           <h1 id="h-cardapio">Cardápio</h1>
+            <section id="cardapio" class="container">
+               <div id="pdf"><iframe src="https://drive.google.com/file/d/190bZmh4PycvMm-TVjUQnV0zOv0lRaSsg/preview" width="400" height="712" allow="autoplay"></iframe></div> 
+                
+               <h1 id="h-cardapio">Cardápio</h1>
+                    <section id="cardapio" class="container">
+                  
+                <div></div>
+            <div id="h-quem somos">
+                <h3>Quem nós somos?
+                    Somos uma empresa especialistas na área da gastronomia com foco em peixes e baguetes. Estamos no mercado a seis anos atuando nesta área, hoje trabalhamos com delivery para o melhor aconchego de nossos clientes.</h3>
+            </div>
+            <div id="h-endereço">
+                <h3>Endereço 
+
+                    Rua Picada Gravatá, 1520 Taquara, RS
+                </h3>
+            </div>
+            <div id="h-contato">
+                <h3>Contato 
+
+                   Whats: (51) 9 8063-4033
+                 
+                   Instagram: paiol_delivery_ 
+                
+                   Facebook: Paiol Delivery
+                </h3>
+            </div>
+
+            
+    </main>
+    
+   
+    
+    <footer></footer>
+    
+</body>
+<script>
+    let nav=document.querySelector("nav");
+    nav.style.display="none";
+    let icon=document.querySelector("#icon-menu");
+    icon.onclick=function(){
+    if(nav.style.display=="none")
+        nav.style.display="block"
+    else
+        nav.style.display="none"
+    }
+</script>
+</html>

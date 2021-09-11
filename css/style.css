@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+header{
+    display:flex;
+    justify-content:space-around;
+    background-color:#ff9100;
+}
+
+nav{
+    position: absolute;
+    margin-top: 12vh;
+    background-color: rgb(7, 7, 7);
+    width: 100%;
+
+}
+nav ul li{
+    list-style: none;
+    border-bottom: #000;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+}
+nav ul li a{
+    color: rgb(248, 246, 246);
+    text-decoration:none;
+    font-size:24px ;
+    margin-left: 3vw;
+}
+
+
+
+p{
+    margin-top:2.05vh;
+    margin:3vh;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Arial;
+    color: #ff9100;
+    
+}
+h2{
+    font-size: 4vh;
+    margin: 4vh;
+    text-align: center;
+    font-family: Arial;
+    color: #ff9100;
+}
+
+h3{
+padding-top:24vh;
+padding-bottom:24vh;
+text-align: center;
+padding-left: 2vh;
+padding-right: 2vh;
+color: #ff9100;
+font-size: 3vh;
+font-family: Helvetica;
+
+}
+
+
+header #LOGO{
+    width:100%;
+}
+header #logo img{
+    width:18vh;
+}
+
+header #ident{
+    width:100%;
+    
+}
+header #ident h1{
+    font-size:21px;
+    text-align:center;
+    padding-top:6vh;
+    padding-right:5.5vh;
+    color: rgb(3, 0, 0);
+    font-family: Arial;
+  
+}
+iframe #pdf{
+    width: 100%;
+}
+
+#imagens{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin:2vh 2vh 2vh 2vh ;
+   
+ }
+
+ #imagens div{
+     width:30vw;
+ }
+
+ #imagens div img{
+     width:100%;
+ }
+
+header #icon-menu{
+    padding-top:5.2vh;
+    padding-right: 2vh;
+    width:25vw;
+}
+header #icon-menu img{
+    width:100%;
+}
+ #img-fundo{
+     position: absolute;
+     z-index:-1;
+     opacity:0.3;
+ }
+ body{
+     background-color: #000;
+ }
+ @media only screen and (min-width: 980px){
+    header #logo img{
+        width:40vh;}
+    
+        header #icon-menu{
+            padding-top:13vh;
+            padding-right: 12vh;
+            width: 15vw;}
+    
+      header #ident h1{
+                font-size:50px;
+                text-align:center;
+                padding-top:15vh;
+                padding-right:6vh;
+                color: rgb(3, 0, 0);
+                font-family: Arial;}
+
+                h3{
+                    padding-top:24vh;
+                    padding-bottom:24vh;
+                    text-align: center;
+                    padding-left: 5vh;
+                    padding-right: 5vh;
+                    color: #ff9100;
+                    font-size: 10vh;
+                    font-family: Helvetica;
+                    
+                    }
+
+                p{
+                    margin-top:2.05vh;
+                    margin:3vh;
+                    text-align: center;
+                    font-size: 4vh;
+                    font-family:'Franklin Gothic Medium';
+                    color: #ff9100;
+                    padding-bottom: 5vh;}
+                    h2{
+                        font-size: 5vh;
+                        margin: 4vh;
+                        text-align: center;
+                        padding-top: 4vh;
+                        font-family: Arial;
+                        color: #ff9100;
+                        padding-bottom: 5vh;}
+                    }
+                    h3{
+                        color: #fff;
+                    }
